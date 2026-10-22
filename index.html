@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="My Creative Portfolio — portfolio thiết kế slide, giao diện website và poster.">
+<title>My Creative Portfolio</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- PHẦN 1: Thanh điều hướng -->
+<header>
+  <div class="wrap nav">
+    <a class="brand" href="#home" aria-label="Về đầu trang"><span class="brand-mark">M.</span><span>My Creative Portfolio<span style="color:#1456d9">_Hoang Thi Thao</span></span></a>
+    <nav class="navlinks" aria-label="Điều hướng chính">
+      <a href="#projects">Dự án</a><a href="#about">Giới thiệu</a><a href="#contact">Liên hệ</a>
+      <a class="nav-cta" href="#projects">Xem sản phẩm ↗</a>
+    </nav>
+  </div>
+</header>
+<!-- PHẦN 2: Nội dung chính -->
+<main>
+<!-- HERO: đổi tiêu đề và đoạn giới thiệu tại đây -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="eyebrow">Creative · Design · Digital learning</div>
+      <h1>Ý tưởng tốt.<br><span class="accent">Thiết kế có chủ đích.</span></h1>
+      <p>Không gian giới thiệu và trưng bày các sản phẩm thiết kế cá nhân, bao gồm slide trình bày, giao diện website và poster truyền thông. Mỗi sản phẩm được xây dựng với sự chú trọng đến tính thẩm mỹ, bố cục rõ ràng và trải nghiệm người dùng, đồng thời thể hiện quá trình học hỏi, sáng tạo và phát triển kỹ năng thiết kế của bản thân.</p>
+      <div class="actions"><a class="btn primary" href="#projects">Khám phá dự án <span>↘</span></a><a class="btn yellow" href="#about">Về tôi <span>↗</span></a></div>
+      <div class="hero-note">DESIGN PORTFOLIO · SELECTED WORKS</div>
+    </div>
+    <div class="hero-art" aria-label="Minh họa giao diện thiết kế">
+      <div class="orb"></div><div class="orb two"></div>
+      <div class="art-window"><div class="window-top"><i></i><i></i><i></i></div><div class="mock-layout"><div class="mock-side"><div class="mock-line"></div><div class="mock-line short"></div><div class="mock-line"></div><div class="mock-line short"></div></div><div class="mock-main"><div class="mock-yellow"></div><div class="mock-blue"></div></div></div></div>
+      <div class="float-tag"><b>01 / 03</b> &nbsp; Selected creative works</div>
+    </div>
+  </div>
+</section>
+<section class="stats"><div class="wrap stats-grid">
+  <div class="stat"><strong>01.</strong><span>Slide & trình bày trực quan</span></div>
+  <div class="stat"><strong>02.</strong><span>Website & giao diện số</span></div>
+  <div class="stat"><strong>03.</strong><span>Poster & ấn phẩm truyền thông</span></div>
+</div></section>
+<!-- THƯ VIỆN DỰ ÁN: các thẻ được JavaScript tạo tự động -->
+<section class="section" id="projects">
+  <div class="wrap">
+    <div class="section-head"><div><div class="kicker">Selected works</div><h2>Dự án nổi bật</h2></div><p>Chọn danh mục để khám phá. Mỗi thẻ dự án hỗ trợ xem trước, mở liên kết và tải tệp khi bạn thêm tài nguyên thực tế.</p></div>
+    <div class="filters" id="categoryFilters" role="group" aria-label="Lọc dự án"></div>
+    <div class="projects" id="projectGrid"></div>
+    <p class="empty-note" id="emptyNote">Chưa có dự án trong danh mục này.</p>
+  </div>
+</section>
+<!-- GIỚI THIỆU BẢN THÂN: chỉnh nội dung tại đây -->
+<section class="section about" id="about">
+  <div class="wrap about-grid">
+    <div class="about-card"><div class="initials">MC.</div><h3>My Creative Portfolio</h3><p>Một nơi lưu giữ quá trình sáng tạo, thử nghiệm và phát triển ý tưởng thành sản phẩm.</p></div>
+    <div><div class="kicker">About me</div><h2>Xin chào, mình là người đứng sau những thiết kế này.</h2><p>Mình là Hoàng Thị Thảo, hiện là sinh viên năm tư ngành Công nghệ Giáo dục tại Đại học Bách khoa Hà Nội. Với niềm yêu thích thiết kế, sáng tạo nội dung số và ứng dụng công nghệ trong giáo dục, mình xây dựng Portfolio này để giới thiệu các sản phẩm đã thực hiện, từ slide, giao diện website, poster đến học liệu số.</p><p><strong>Định hướng:</strong> thiết kế học liệu số, trình bày nội dung, giao diện số và ấn phẩm truyền thông.</p><div class="skills"><span>Slide design</span><span>Website UI</span><span>Poster design</span><span>Digital learning</span><span>Visual storytelling</span></div></div>
+  </div>
+</section>
+<!-- LIÊN HỆ: thay email mẫu bằng email thật -->
+<section class="section" id="contact"><div class="wrap"><div class="contact-panel"><div><h2>Cùng biến ý tưởng thành sản phẩm.</h2>
+<p>Liên hệ qua</p>
+<p>📞 Điện thoại: <strong>0967476618</strong></p>
+<p>📩 Email: <strong>thao.ht101005@gmail.com</strong></p></div><a class="btn yellow"
+   href="https://mail.google.com/mail/?view=cm&fs=1&to=thao.ht101005@gmail.com"
+   target="_blank"
+   rel="noopener noreferrer"
+   id="emailLink">
+   Liên hệ với tôi ↗
+</a></div></div></section>
+</main>
+<footer><div class="wrap footer-row"><span>© <span id="year"></span> My Creative Portfolio</span><span>Designed with clarity · Powered by creativity</span></div></footer>
+
+<!-- MODAL: cửa sổ xem trước. Nếu previewPdf có giá trị, JavaScript nhúng PDF nhiều trang; nếu không thì hiển thị ảnh. -->
+<div class="modal" id="previewModal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+ <div class="modal-card"><h3 id="modalTitle">Xem trước dự án</h3><div id="modalContent"></div><div class="modal-actions"><button class="btn primary" id="cancelModal">Đóng</button></div></div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+<!-- QUAN TRỌNG: projects.js phải tải trước app.js -->
+<script src="projects.js"></script>
+<script src="app.js" defer></script>
+</body>
+</html>
